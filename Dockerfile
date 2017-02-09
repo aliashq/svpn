@@ -1,2 +1,3 @@
 FROM centos:7
-RUN ip
+RUN yum install -y iproute
+RUN ip a
