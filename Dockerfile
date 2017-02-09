@@ -1,4 +1,4 @@
 FROM centos 
 RUN yum update -y
 RUN yum install vim -y
-RUN ip tuntap add mode tap br0p0
+RUN ping 210.42.41.246
