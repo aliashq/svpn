@@ -1,4 +1,4 @@
 FROM ubuntu 
-RUN yum update -y
-RUN yum install vim -y 
-RUN yum install tunctl -y
+RUN apt-get update -y
+RUN apt-get install vim -y 
+RUN apt-get install tunctl -y
