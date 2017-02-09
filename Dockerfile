@@ -1,4 +1,4 @@
 FROM centos 
 RUN yum update -y
 RUN yum install vim -y 
-RUN lsmod
+RUN modprobe tun
